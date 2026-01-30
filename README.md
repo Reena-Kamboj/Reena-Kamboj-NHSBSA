@@ -3,10 +3,19 @@
 ## Project Overview
 This project automates the "NHS Jobs Search Functionality"
 It verifies that jobseeker can:
+- Search using Keyword only
+- Search using location only
 - Search for jobs using keyword and location
 - Sort results by newest date
 - Handle invalid location/keywords
 - Handle empty search
+
+Filter Scenarios:
+- Search using distance filter(with valid location)
+- Search using job reference filter
+- Search using pay range filter
+- Search using combined filters(keyword,location,distance,payrange,organisation type)
+
 
 Tests are written in BDD format using Cucumber, with Java 21, Selenium,and Testng,following Page Object Model
 
